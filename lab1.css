@@ -1,0 +1,128 @@
+  /*Simranjeet Kaur*/
+  /*Lab 1 CSS */
+  /*Css File for Lab1*/
+  
+  body {
+      background-color: #1C3051;
+  }
+  /* Whole body color is blue */
+  
+  div {
+      border-width: 4px;
+  }
+  .solid {
+      border-style: solid;
+  }
+  .black {
+      border-color: black;
+  }
+  .thick {
+      border-style: thick;
+  }
+  /*Settings for the outerbox*/
+  
+  .white {
+      background-color: white;
+      border-width: 4px;
+      margin-left: 5px;
+      margin-right: 5px;
+      height: 875px;
+  }
+  /*Settings for the titlebox */
+  
+  .titlebox {
+      border-width: 1px;
+      margin-top: 10px;
+      margin-left: 10px;
+      margin-right: 10px;
+      padding-right: 25px;
+      height: 110px;
+      background-color: #DDE6C7;
+  }
+  /* background color is light green */
+  
+  .hA {
+      text-align: right;
+  }
+  .hB {
+      text-align: right;
+      font-size: 1.1em;
+      margin-top: -15px;
+  }
+  .hC {
+      text-align: left;
+  }
+  /*Settings for the friendsbox */
+  
+  .friendsbox {
+      background-color: red;
+      border-width: 4px;
+      margin-top: 20px;
+      margin-left: 10px;
+      margin-bottom: 325px;
+      color: white;
+      width: 20%;
+      height: 200px;
+      float: left;
+      Padding-left: 1%;
+
+
+  }
+#friendsul {
+      margin-left: -20px;
+      margin-top: -10px;
+  }
+  a.nodec {
+      text-decoration: none;
+      color: white;
+      font-size: 25px;
+
+  }
+
+  a:hover {
+      text-decoration: underline;
+      color: red;
+  }
+  /* Settings for blogbox1 */
+  
+  .blogbox1 {
+      background-color: #CFC8E3;
+      border-width: 2px;
+      margin-top: 20px;
+      margin-right: 10px;
+      margin-bottom: 5px;
+      float: right;
+      width: 71.5%;
+      padding-left: 3%;
+      Padding-right: 1%;
+  }
+  /*Settings for blogbox2*/
+  
+  .blogbox2 {
+      background-color: #CFC8E3;
+      border-width: 2px;
+      margin-top: 5px;
+      margin-right: 10px;
+      margin-bottom: 5px;
+      float: right;
+      width: 71.5%;
+      Padding-left: 3%;
+      Padding-right: 1%;
+  }
+  p {
+      text-align: justify;
+  }
+  /*:not(body) *  :hover  { background-color:#F3F183;}*/
+  /* We can also use the above comment for hovering */
+  
+  body *:hover {
+      background-color: yellow;
+  }
+  img {
+      float: right;
+      margin-left: 20px;
+      margin-bottom: 20px;
+      height: 200px;
+      width: 200px;
+  }
+  /* image tag*/
